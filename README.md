@@ -10,8 +10,17 @@
 WPS字体[传送门](https://github.com/pengphei/wps-font-symbols)。
 
 ## 安装方法
-```
+```sh
 sudo ./install.sh
 ```
 
 字体将会安装在`/usr/share/fonts/linux_fonts`里面
+
+
+如果运行mkfontscale命令时终端提示mkfontscale: command not found，则需要首先安装这个命令，安装方法如下：
+```sh
+# 使mkfontscale和mkfontdir命令正常运行
+sudo apt-get install ttf-mscorefonts-installer
+# 使fc-cache命令正常运行
+sudo apt-get install fontconfig
+```
