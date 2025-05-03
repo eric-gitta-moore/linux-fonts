@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo mkdir /usr/share/fonts/linux_fonts
+sudo mkdir -p /usr/share/fonts/linux_fonts
 sudo cp ./*.ttf /usr/share/fonts/linux_fonts
 sudo cp ./*.ttc /usr/share/fonts/linux_fonts
 cd /usr/share/fonts/linux_fonts
